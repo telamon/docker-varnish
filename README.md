@@ -1,7 +1,11 @@
 # Varnish Docker container
 
+This fork provides same features as the original but downgrades varnish
+to 3.x instead for compatibility issue with old varnish integrations not
+supporting 4.x yet. - telamon
+
 > Centos 7  
-> Varnish 4.x
+> Varnish 3.x
 
 ## Usage
 
@@ -40,6 +44,7 @@ You can configure Varnish daemon by following env variables:
 
 * Marcin Ryzycki (<marcin@m12.io>)  
 * Przemyslaw Ozgo (<linux@ozgo.info>)
+* Tony Ivanov (<telamohn@gmail.com>)
 
 ---
 

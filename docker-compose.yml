@@ -1,0 +1,10 @@
+varnish:
+    build: .
+    ports:
+        - "80:80"
+        - "6082:6082"
+    environment:
+        VARNISHD_PARAMS: -p esi_syntax=0x2 -p cli_buffer=16384 -T 0.0.0.0:6082 
+
+
+
